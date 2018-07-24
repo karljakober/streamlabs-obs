@@ -26,52 +26,954 @@ const sourceTypes = [
   'Browser Source'
 ];
 
-
-test('Adding and removing some sources', async t => {
+test('Adding and removing Window Capture', async t => {
   const app = t.context.app;
 
-  for (const sourceType of sourceTypes) {
-    const sourceName = `Example ${sourceType}`;
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
 
-    await addSource(t, sourceType, sourceName);
-    await focusMain(t);
-
-    t.true(await sourceIsExisting(t, sourceName));
-
-    await selectSource(t, sourceName);
-    await clickRemoveSource(t);
-
-    t.false(await sourceIsExisting(t, sourceName));
-  }
-});
-
-test('Viewing source properties', async t => {
-  const app = t.context.app;
-  const sourceName = 'Cool Color Source';
-
-  await addSource(t, 'Color Source', sourceName);
-
+  await addSource(t, sourceType, sourceName);
   await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
   await selectSource(t, sourceName);
-  await clickSourceProperties(t);
+  await clickRemoveSource(t);
 
-  await focusChild(t);
-  t.true(await app.client.isExisting('label=Color'));
+  t.false(await sourceIsExisting(t, sourceName));
 });
 
-
-test('Rename source', async t => {
+test('Adding and removing Window Capture', async t => {
   const app = t.context.app;
-  const sourceName = 'MyColorSource1';
-  const newSourceName = 'MyColorSource2';
 
-  await addSource(t, 'Color Source', sourceName);
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
 
-  await openRenameWindow(t, sourceName);
-  await app.client.setValue('input', newSourceName);
-  await app.client.click('button=Done');
-
-
+  await addSource(t, sourceType, sourceName);
   await focusMain(t);
-  t.true(await sourceIsExisting(t, newSourceName));
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
+});
+
+test('Adding and removing Window Capture', async t => {
+  const app = t.context.app;
+
+  const sourceType = 'Window Capture';
+  const sourceName = `Example ${sourceType}`;
+
+  await addSource(t, sourceType, sourceName);
+  await focusMain(t);
+
+  t.true(await sourceIsExisting(t, sourceName));
+
+  await selectSource(t, sourceName);
+  await clickRemoveSource(t);
+
+  t.false(await sourceIsExisting(t, sourceName));
 });
