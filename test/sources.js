@@ -29,18 +29,20 @@ const sourceTypes = [
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
-  const sourceType = 'Video Capture Device';
-  const sourceName = `Example ${sourceType}`;
+  const sourceType = 'Image';
+  while(1) {
+    const sourceName = `Example ${sourceType}`;
 
-  await addSource(t, sourceType, sourceName);
-  await focusMain(t);
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
 
-  t.true(await sourceIsExisting(t, sourceName));
+    t.true(await sourceIsExisting(t, sourceName));
 
-  await selectSource(t, sourceName);
-  await clickRemoveSource(t);
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
 
-  t.false(await sourceIsExisting(t, sourceName));
+    t.false(await sourceIsExisting(t, sourceName));
+  }
 });
 
 test('Viewing source properties', async t => {
