@@ -26,24 +26,24 @@ const sourceTypes = [
   'Browser Source'
 ];
 
-test('Adding and removing some sources', async t => {
-  const app = t.context.app;
 
-  const sourceType = 'Image';
-  while(1) {
-    const sourceName = `Example ${sourceType}`;
+// test('Adding and removing some sources', async t => {
+//   const app = t.context.app;
 
-    await addSource(t, sourceType, sourceName);
-    await focusMain(t);
+//   for (const sourceType of sourceTypes) {
+//     const sourceName = `Example ${sourceType}`;
 
-    t.true(await sourceIsExisting(t, sourceName));
+//     await addSource(t, sourceType, sourceName);
+//     await focusMain(t);
 
-    await selectSource(t, sourceName);
-    await clickRemoveSource(t);
+//     t.true(await sourceIsExisting(t, sourceName));
 
-    t.false(await sourceIsExisting(t, sourceName));
-  }
-});
+//     await selectSource(t, sourceName);
+//     await clickRemoveSource(t);
+
+//     t.false(await sourceIsExisting(t, sourceName));
+//   }
+// });
 
 test('Viewing source properties', async t => {
   const app = t.context.app;
