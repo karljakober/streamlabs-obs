@@ -42,6 +42,7 @@ Visual Studio Community 2015 with Update 3
 Make sure you do a custom installation and select Visual C++ from
 the languages section.
 
+
 ### CMake
 
 Some of our native addons require CMake for compilation.  You can
@@ -181,3 +182,28 @@ manual deploy.
 - [ ] Run the packaged version in `dist/win-unpacked` and make sure it runs
 - [ ] Deploy the new version `yarn deploy`
 - [ ] Merge master back into staging
+
+
+### Linux Users
+
+Linux users will need to run the following to have gcc-6
+
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install gcc-6 g++-6
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6
+```
+
+If you are manually building crashpad you will need to run
+```
+sudo apt-get install libcap-dev
+```
+
+If you are manually building obs-studio-node
+```
+sudo apt-get install libprotobuf-dev protobuf-compiler
+```
+
+If you are manually building obs-stuidio
+follow build instructions here https://github.com/obsproject/obs-studio/wiki/Install-Instructions#linux

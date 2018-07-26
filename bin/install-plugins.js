@@ -16,7 +16,13 @@ const FACE_MASK_VERSION = '0.7.2';
 
 // This is the main function
 async function runScript() {
-  const zipExe = path.resolve(__dirname, 'node_modules', '7zip-bin-win', 'x64', '7za.exe');
+  let zipExe = path.resolve(__dirname, 'node_modules', '7zip-bin-win', 'x64', '7za.exe');
+
+  // add more specific os checks
+  if (!fs.exists(zipExe)) {
+    zipExe = path.resolve(__dirname, 'node_modules', '7zip-bin-linux', 'x64', '7za');
+  }
+
   const slobsDir = path.resolve(__dirname, '..');
   const nodeObsPath = path.join(slobsDir, 'node_modules', 'obs-studio-node', 'libobs');
   const pluginsPath = path.join(slobsDir, 'plugins');
