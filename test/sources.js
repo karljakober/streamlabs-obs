@@ -36,7 +36,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -44,7 +44,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -54,7 +53,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -62,7 +61,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -72,7 +70,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -80,7 +78,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -90,7 +87,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -98,7 +95,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -108,7 +104,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -116,7 +112,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -126,7 +121,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -134,7 +129,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -144,7 +138,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -152,7 +146,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -162,7 +155,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -170,7 +163,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -180,7 +172,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -188,7 +180,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -198,7 +189,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -206,7 +197,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -216,7 +206,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -224,7 +214,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -234,7 +223,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -242,7 +231,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -252,7 +240,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -260,7 +248,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -270,7 +257,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -278,7 +265,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -288,7 +274,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -296,7 +282,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -306,7 +291,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -314,7 +299,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -324,7 +308,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -332,7 +316,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -342,7 +325,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -350,7 +333,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -360,7 +342,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -368,7 +350,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -378,7 +359,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -386,7 +367,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -396,7 +376,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -404,7 +384,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -414,7 +393,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -422,7 +401,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -432,7 +410,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -440,7 +418,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -450,7 +427,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -458,7 +435,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -468,7 +444,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -476,7 +452,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -486,7 +461,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -494,7 +469,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -504,7 +478,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -512,7 +486,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -522,7 +495,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -530,7 +503,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -540,7 +512,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -548,7 +520,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -558,7 +529,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -566,7 +537,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -576,7 +546,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -584,7 +554,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -594,7 +563,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -602,7 +571,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -612,7 +580,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -620,7 +588,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -630,7 +597,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -638,7 +605,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -648,7 +614,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -656,7 +622,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -666,7 +631,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -674,7 +639,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -684,7 +648,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -692,7 +656,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -702,7 +665,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -710,7 +673,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -720,7 +682,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -728,7 +690,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -738,7 +699,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -746,7 +707,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -756,7 +716,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -764,7 +724,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -774,7 +733,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -782,7 +741,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -792,7 +750,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -800,7 +758,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -810,7 +767,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -818,7 +775,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -828,7 +784,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -836,7 +792,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -846,7 +801,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -854,7 +809,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -864,7 +818,7 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
@@ -872,7 +826,6 @@ test('Adding and removing some sources', async t => {
     t.false(await sourceIsExisting(t, sourceName));
   }
 });
-
 test('Adding and removing some sources', async t => {
   const app = t.context.app;
 
@@ -882,7 +835,262 @@ test('Adding and removing some sources', async t => {
     await addSource(t, sourceType, sourceName);
     await focusMain(t);
 
-    t.true(await sourceIsExisting(t, sourceName));
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
+
+    await selectSource(t, sourceName);
+    await clickRemoveSource(t);
+
+    t.false(await sourceIsExisting(t, sourceName));
+  }
+});
+test('Adding and removing some sources', async t => {
+  const app = t.context.app;
+
+  for (const sourceType of sourceTypes) {
+    const sourceName = `Example ${sourceType}`;
+
+    await addSource(t, sourceType, sourceName);
+    await focusMain(t);
+
+    t.true(true);
 
     await selectSource(t, sourceName);
     await clickRemoveSource(t);
