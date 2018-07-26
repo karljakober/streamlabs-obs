@@ -78,7 +78,7 @@
     "node-fontinfo": "^0.0.2",
     "node-gyp": "^3.6.2",
     "node-libuiohook": "git+https://github.com/stream-labs/node-libuiohook.git",
-    "obs-studio-node": "https://ci.appveyor.com/api/buildjobs/74dd5iy4rusdf618/artifacts/iojs-v2.0.4-unsigned.tar.gz",
+    "obs-studio-node": "https://ci.appveyor.com/api/buildjobs/qt9j6fje1ro1rc8c/artifacts/iojs-v2.0.4-unsigned.tar.gz",
     "recursive-readdir": "^2.2.2",
     "request": "^2.85.0",
     "rimraf": "^2.6.1",
